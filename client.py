@@ -1,7 +1,7 @@
 import socket
 
-HOST = "127.0.0.1"  # servidor local
-PORT = 65432
+HOST = "192.168.1.11"  
+PORT = 8000
 
 def main():
     with socket.socket(socket.AF_INET, socket.SOCK_STREAM) as s:
